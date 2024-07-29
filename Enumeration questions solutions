@@ -1,0 +1,30 @@
+What is the hostname of the target system?
+good, we will use this command to know the host name of the target system: 
+hostname ----> the answer will be : wade7363
+
+What is the Linux kernel version of the target system?
+as we know there is a command who is responsible for that like -->
+uname -a ----> the answer will be 3.13.0-24-generic
+
+What Linux is this?
+we can know this answer by followinf this path : etc/os-release
+$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="14.04, Trusty Tahr"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.04 LTS" ------> this is what we need : Ubuntu 14.04 LTS
+VERSION_ID="14.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+
+What version of the Python language is installed on the system?
+alright then that is easy one, we will use this command to know the version of the python language that installed on the system:
+python --version     ----> Python 2.7.6
+
+What vulnerability seem to affect the kernel of the target system? (Enter a CVE number)?
+good, we will use google to search on that one, we will write this: 3.13.0-24-generic exploit, by the way you have to enhance your research skills :)
+so the vulnerability CVE number is ----> CVE-2015-1328
+
+So Guys we have finished this task and I hope you have benefited from this, thanks :) 
